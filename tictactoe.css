@@ -11,19 +11,20 @@
     
 }
 .container{
-    margin-top: 10px;
+    margin-top: 80px;
     width: 100%;
     height: 400px;
-    background-color: rgb(105, 27, 206);
     padding: 10px;
     display: flex;
+    justify-content: center;
     
 }
 .players{
     display: block;
     height: 400px;
     width: 250px;
-    background-color: white;
+    margin-right: 100px;
+    margin-top: 70px;
 }
 #player1-button{
     margin-top: 10px;
@@ -47,7 +48,7 @@ margin-top: 10px;
     background:rgb(0, 0, 0);    
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    margin-left: 350px;
+    margin-left: 20px;
     grid-gap:3px;
 }
 .boxes{
@@ -58,4 +59,14 @@ margin-top: 10px;
     font-size: 3rem;
     font-weight: bold;
     background: white;
+}
+
+#message{
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 70px;
 }
